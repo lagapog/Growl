@@ -3,7 +3,7 @@
     <gr-parrafo>
       <h2 slot="titulo">¿Qué es Growl?</h2>
       <p slot="contenido">
-        <b>Growl</b> es un pequeño proyecto personal / tutorial, en el cuál muestro los conceptios básicos de <b>CSS Grid Layout</b>. Puedes ver más de mi trabajo en mi portafolio personal <a class="text-muted" href="https://luisagapito.com" target="_blank"><b>dando click aquí</b></a>.
+        <b>Growl</b> es un pequeño proyecto personal / tutorial, en el cuál muestro los conceptos básicos de <b>CSS Grid Layout</b>. Puedes ver más de mi trabajo en mi portafolio personal <a class="text-muted" href="https://luisagapito.com" target="_blank"><b>dando click aquí</b></a>.
       </p>
     </gr-parrafo>
     <gr-parrafo>
