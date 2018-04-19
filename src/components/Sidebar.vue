@@ -90,7 +90,7 @@ export default {
     line-height: 2.5rem;
     font-size: 2.5rem;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .sidebar .shadow-desktop {
       display: none;
     }
@@ -125,10 +125,10 @@ export default {
       display: block;
       z-index: -1;
       height: calc(100vh / 7);
-      width: calc(100% + 2px);
+      width: calc(100% + 4px);
       position: absolute;
       transition: top .3s;
-      left: 0;
+      left: -2px;
       background-color: #fff;
       top: calc(200vh / 7);
     }

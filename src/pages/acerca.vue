@@ -48,17 +48,7 @@ export default {
   .mb-3{margin-bottom: 3rem;}
   .container {
     display: grid;
-    grid-template-columns: [inicio] 5% [contenido-start] 1fr [contenido-end] 5% [fin];
     grid-row-gap: 1.5rem;
-  }
-  @media (max-width: 992px) {
-    .container {
-      grid-template-columns: [inicio] 5px [contenido-start] 1fr [contenido-end] 5px [fin];
-      grid-row-gap: 1.5rem;
-    } 
-  }
-  .container>* {
-    grid-column: contenido-start / contenido-end;  
   }
   .text-muted {
     color: #2980B9;

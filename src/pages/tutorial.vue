@@ -67,17 +67,12 @@ export default {
   .container {
     height: 100%;
     display: grid;
-    grid-template-columns: 5% [nav-start] 250px [nav-end] 20px [contenido-start] 1fr [contenido-end] 5%;
+    grid-template-columns: [nav-start] 250px [nav-end] 40px [contenido-start] 1fr [contenido-end];
   }
   @media (max-width: 992px) {
     .container {
-      grid-template-columns: 5px [nav-start] 250px [nav-end] 20px [contenido-start] 1fr [contenido-end] 5px;
-    } 
-  }
-  @media (max-width: 768px) {
-    .container {
       grid-template-rows: 50px 1fr;
-      grid-template-columns: 5px [contenido-start] 1fr [contenido-end] 5px;
+      grid-template-columns: [contenido-start] 1fr [contenido-end];
     }
     button.indice {
       display: block;

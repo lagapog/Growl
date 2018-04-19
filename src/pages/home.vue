@@ -10,7 +10,7 @@ export default {
 }
 </script>
 <style scoped>
-  .container {
+  .container,p {
     text-align: center;
   }
   .logo {

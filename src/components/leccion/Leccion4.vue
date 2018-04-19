@@ -45,7 +45,7 @@
       grid-template-columns: repeat(3, minmax(100px, 1fr))
       <span class="red">}</span>
     </gr-code-box>
-    <p>Así tendremos tres columnas cuyo ancho será un tercio del espacio disponible, pero con mínumo de 100px.</p>
+    <p>Así tendremos tres columnas cuyo ancho será un tercio del espacio disponible, pero con mínimo de 100px.</p>
   </div>
 </template>
 <script>

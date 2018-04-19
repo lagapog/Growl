@@ -30,20 +30,30 @@ body {
   height: 100vh;
   display: grid;
   grid-template-rows: 80px 1fr 50px;
+  grid-template-columns: [inicio] 5% [contenido-start] 1fr [contenido-end] 5% [fin];
   align-items: center;
+}
+#app>* {
+  grid-column: contenido-start / contenido-end;  
 }
 html {
   font-size: 16px;
+  line-height: 22px;
 }
 @media (max-width: 992px) {
   html {
-    font-size: 15px;
+    font-size: 16.5px;
+    line-height: 24px;
   }
 }
 @media (max-width: 768px) {
   html {
-    font-size: 14px;
+    font-size: 17px;
+    line-height: 27px;
   }
+}
+p {
+  text-align: justify;
 }
 span.code {
   font-family: Monaco;
