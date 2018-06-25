@@ -6,12 +6,12 @@
     <p>En este caso vamos a posicinar un elemento con clase "hijo" dentro de nuestro <b>Grid container</b> de clase "grilla".</p>
     <gr-code-box>
       <gr-etiqueta type="apertura">div class="grilla"</gr-etiqueta><br/>
-      <gr-etiqueta type="apertura" class="ml-2">div class="hijo"</gr-etiqueta>
-        <span>Elemento</span>
-      <gr-etiqueta type="clausura">div</gr-etiqueta><br/>
+      <gr-etiqueta type="apertura" class="ml-2">div class="hijo"</gr-etiqueta><br>
+        <span class="ml-4">Elemento</span><br>
+      <gr-etiqueta type="clausura" class="ml-2">div</gr-etiqueta><br/>
       <gr-etiqueta type="clausura">div</gr-etiqueta>
     </gr-code-box>
-    <p>Vamos a declarar nuestro <b>Grid container</b> con 4 filas y 5 columnas del mismo tamaño, y le daremos algunos estilos a nuestro elemeto de clase "hijo".</p>
+    <p>Vamos a declarar nuestro <b>Grid container</b> con 4 filas y 5 columnas del mismo tamaño, y le daremos algunos estilos a nuestro elemento de clase "hijo".</p>
     <gr-code-box>
       <span class="red">.</span>grilla <span class="red">{</span><br>
       <span class="ml-2">display: grid;</span><br>
@@ -84,8 +84,6 @@ export default {
 }
 </script>
 <style>
-.ml-2{margin-left: 2rem;}
-.mt-2{margin-top: 2rem;}
 .coment{color:#777}
 .grilla3 {
   display: grid;

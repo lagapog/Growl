@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <img src="@/assets/logo.svg" class="logo">
-    <p>GRID - ROW - COL</p>
+    <p>GROWL</p>
+    <p>Grid - Row - Col</p>
   </div>
 </template>
 <script>

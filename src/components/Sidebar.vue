@@ -53,6 +53,7 @@ export default {
 </script>
 <style scoped>
   .sidebar {
+    width: 230px;
     height: 560px;
     border: 2px solid #2c3e50;
     grid-column: nav-start / nav-end;
@@ -60,7 +61,7 @@ export default {
     grid-template-columns: 10px [inicio] 1fr;
     grid-template-rows: repeat(7, 1fr);
     align-items: center;
-    position: relative;
+    position: fixed;
   }
   .sidebar .shadow-tablet {
     display: none;
@@ -95,6 +96,7 @@ export default {
       display: none;
     }
     .sidebar {
+      width: 100vw;
       height: 100vh;
       background-color: #2c3e50;
       text-align: center;

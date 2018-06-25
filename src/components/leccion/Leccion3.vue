@@ -1,15 +1,15 @@
 <template>
   <div class="content">
     <h2>Márgenes</h2>
-    <p>Si alguna vez has programado en la parte visual de un proyecto, es probable que hayas tenido más de un dolor de cabeza con esta parte. Los márgenes, con <b>CSS Grid Layout</b> ya no serán más un problema.</p>
+    <p>Si alguna vez has trabajado en la parte visual de un proyecto, es probable que hayas tenido más de un dolor de cabeza con esta parte. Los márgenes, con <b>CSS Grid Layout</b> ya no serán más un problema.</p>
     <p>En el siguiente caso vamos a darle márgenes a nuestro <b>Grid container</b>. Este tendrá tres columnas y tres filas.</p>
     <div class="grilla2">
       <div v-for="n in 9" :key="n">{{n}}</div>
     </div>
-    <p>Como se puede observar, tanto las columnas como las filas se encuentran pegadas (sin ningún margen entre ellos). Primero, agregaremos margen de 20px a sus filas.</p>
+    <p>Como se puede observar, tanto las columnas como las filas se encuentran juntas (sin ningún margen entre ellos). Primero, agregaremos margen de 20px a sus filas.</p>
     <gr-code-box>
-      <span class="red">.</span>grid <span class="red">{</span>
-        grid-row-gap: 20px;
+      <span class="red">.</span>grid <span class="red">{</span><br>
+        <span class="ml-2">grid-row-gap: 20px;</span><br>
       <span class="red">}</span>
     </gr-code-box>
     <p><b>Nota:</b> Los márgenes declarados son internos al <b>Grid container</b>.</p>
@@ -18,18 +18,18 @@
     </div>
     <p>Análogamente, se puede declarar los márgenes para las columnas. Ahora le daremos un espacido de 2<span class="red">rem</span>.</p>
     <gr-code-box>
-      <span class="red">.</span>grid <span class="red">{</span>
-        grid-col-gap: 2rem;
+      <span class="red">.</span>grid <span class="red">{</span><br>
+        <span class="ml-2">grid-col-gap: 2rem;</span><br>
       <span class="red">}</span>
     </gr-code-box>
     <br>
     <div class="grilla2 margin-row margin-col">
       <div v-for="n in 9" :key="n">{{n}}</div>
     </div>
-    <p>Para terminar, al igual que las filas y columnas, se puede hace declarar sus márgenes en un sola línea obteniendo el mismo resultado. La única diferencia es que no requiere de una barra para separar los valores</p>
+    <p>Para terminar, al igual que con las filas y columnas, los márgenes se pueden declarar en un sola línea y obtendríamos el mismo resultado. La única diferencia es que no requiere de una diagonal para separar los valores</p>
     <gr-code-box>
-      <span class="red">.</span>grid <span class="red">{</span>
-        grid-gap: 20px 2rem;
+      <span class="red">.</span>grid <span class="red">{</span><br>
+        <span class="ml-2">grid-gap: 20px 2rem;</span><br>
       <span class="red">}</span>
     </gr-code-box>
   </div>
@@ -43,11 +43,7 @@ export default {
 }
 </script>
 <style>
-  .red{
-    color: red;
-  }  
   .grilla2{
-    /* margin: 2rem auto; */
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     height: 50vh;

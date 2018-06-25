@@ -54,6 +54,7 @@ html {
 }
 p {
   text-align: justify;
+  line-height: 1.2rem;
 }
 span.code {
   font-family: Monaco;
@@ -69,4 +70,12 @@ span.code {
 .page-appear-enter-to, .page-appear-leave {
   opacity: 1;
 }
+.mb-0{margin-bottom: 0;}
+.mb-2{margin-bottom: 2rem;}
+.mt-0{margin-top: 0;}
+.mt-2{margin-top: 2rem;}
+.ml-2{margin-left: 2rem;}
+.ml-4{margin-left: 4rem;}
+.red {color: red;}
+.enlace{cursor: pointer}
 </style>

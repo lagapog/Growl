@@ -9,7 +9,8 @@
         <span class="ml-2">height: 500px;</span><br>
         <span class="ml-2">grid-template-rows: 50px 1fr 30px;</span><br>
         <span class="ml-2">grid-template-columns: 150px 1fr;</span><br>
-        <span class="ml-2">grid-template-areas: "head head"</span><br>
+        <span class="ml-2">grid-template-areas:</span><br>
+        <span class="tab">"head head"</span><br>
         <span class="tab">"nav  main"</span><br>
         <span class="tab">"foot  foot";</span><br>
       <span class="red">}</span>
@@ -29,7 +30,7 @@
         grid-area: foot;
       <span class="red">}</span>
     </gr-code-box>
-    <p><b>Nota:</b> Lás áreas pueden ser definidas con cualquier nombre, pero es una buena práctica que indiquen que parte de nuestra maqueta está representando.</p>
+    <p><b>Nota:</b> Lás áreas pueden ser definidas con cualquier nombre, pero es una buena práctica que indiquen qué parte de nuestra maqueta está representando.</p>
   </div>
 </template>
 <script>
@@ -41,6 +42,5 @@ export default {
 }
 </script>
 <style>
-.ml-2{margin-left: 2rem;}
-.tab{margin-left: 15rem;}
+.tab{margin-left: 5rem;}
 </style>
